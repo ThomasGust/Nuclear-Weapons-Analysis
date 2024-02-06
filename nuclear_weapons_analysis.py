@@ -501,7 +501,7 @@ def fit_and_plot_polynomial(degree):
     plt.ylabel("Estimated Number of Nuclear Warheads")
     plt.legend()
     plt.savefig(f"figures/graphs/polynomial_fit_degree_{degree}.png")
-    plt.show()
+    plt.close()
 
     return str(polynomial)
 
